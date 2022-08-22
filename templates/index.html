@@ -6,22 +6,6 @@
         <a class="navbar-brand" href="/">LearnSummary.ru</a>
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-            <button class="btn btn-success">
-                <img src="/static/img/plus.png" />
-            </button>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="/static/img/post.png" />
-                    Статьи
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#"><img class="dropdown-img"
-                                src="/static/img/fresh.png" />Свежие</a></li>
-                    <li><a class="dropdown-item" href="#"><img class="dropdown-img"
-                                src='/static/img/popular.png' />Популярные</a></li>
-                </ul>
-            </div>
         </form>
         <a class="btn-login" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Войти
@@ -29,6 +13,13 @@
         </a>
     </div>
 </nav>
+<div class = "nav-left">
+    <ul>
+        <li><a href = "">Написать статью <img src="../static/img/write.png"/> </a></li>
+        <li><a href = "">Свежие <img src = "../static/img/fire.png"/></a></li>
+        <li><a href = "">Популярные <img src = "../static/img/best.png"/></a></li>
+    </ul>
+</div>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">

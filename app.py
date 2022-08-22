@@ -9,3 +9,7 @@ aiohttp_jinja2.setup(app, loader = jinja2.FileSystemLoader('templates'))
 setup_routes(app)
 setup_static_routes(app)
 web.run_app(app)
+
+if __name__ == '__main__':
+    print('test')
+
